@@ -39,7 +39,7 @@ st.caption("✅ Fully persistent within your browser session • Streaming • A
 # GEMINI SETUP (Cloud-friendly)
 # ==============================
 
-<<<<<<< HEAD
+# <<<<<<< HEAD
 if "gemini_key" not in st.session_state:
     st.session_state.gemini_key = st.secrets.get("GEMINI_API_KEY")   # Works automatically on Cloud
 
@@ -254,7 +254,7 @@ Give ONE powerful, actionable recommendation to reduce these complaints."""
         except:
             st.info("Live insight coming soon...")
 
-<<<<<<< HEAD
+# <<<<<<< HEAD
 # Footer
 st.divider()
 st.markdown(
@@ -263,7 +263,7 @@ st.markdown(
     "Built for instant deployment</p>",
     unsafe_allow_html=True
 )
-=======
+# =======
         # AI Generated Business Insight
         highest_issue = df.sort_values("Count", ascending=False).iloc[0]["Issue Type"]
 
