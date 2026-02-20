@@ -264,15 +264,15 @@ st.markdown(
     unsafe_allow_html=True
 )
 # =======
-        # AI Generated Business Insight
-        highest_issue = df.sort_values("Count", ascending=False).iloc[0]["Issue Type"]
+# AI Generated Business Insight
+highest_issue = df.sort_values("Count", ascending=False).iloc[0]["Issue Type"]
 
-        st.warning(f"⚠️ Insight: '{highest_issue}' complaints are trending. Consider operational optimization.")
+st.warning(f"⚠️ Insight: '{highest_issue}' complaints are trending. Consider operational optimization.")
 
-        st.info("""
-        🔹 Digital Transformation Achieved:
-        - AI handles queries
-        - AI classifies problems
-        - AI generates strategic business insights
-        """)
+st.info("""
+🔹 Digital Transformation Achieved:
+- AI handles queries
+- AI classifies problems
+- AI generates strategic business insights
+""")
 # >>>>>>> 44bf94c8ca54841f8c2c45a81a9fcc4a85fdf5c9
