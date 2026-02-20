@@ -55,9 +55,9 @@ if not st.session_state.gemini_key:
     st.stop()
 
 genai.configure(api_key=st.session_state.gemini_key)
-=======
-genai.configure(api_key=os.getenv("GEMINI_API_KEY"))
->>>>>>> 44bf94c8ca54841f8c2c45a81a9fcc4a85fdf5c9
+# =======
+# genai.configure(api_key=os.getenv("GEMINI_API_KEY"))
+# >>>>>>> 44bf94c8ca54841f8c2c45a81a9fcc4a85fdf5c9
 model = genai.GenerativeModel("gemini-2.5-flash")
 
 # ==============================
